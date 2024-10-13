@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumbleBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+117305430b4b040b2feda8c52a44b51398e7b0ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68f896090df3d591a65c567dd6d8afe978414a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumbleBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumbleBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

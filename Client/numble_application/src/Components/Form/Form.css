@@ -173,6 +173,22 @@
   transform: rotate(45deg);
 }
 
+/* Error Styling */
+
+.input.error {
+  border: 2px solid red;
+  animation: shake 0.3 ease;
+}
+
+.error_message {
+  color: red;
+  font-size: 1rem;
+}
+
+.clear-icon {
+  margin-top: 0.5rem;
+}
+
 @media only screen and (min-width: 1025px) {
   .form_container {
     padding: 2rem;
