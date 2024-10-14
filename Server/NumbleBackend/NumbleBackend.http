@@ -1,0 +1,6 @@
+@NumbleBackend_HostAddress = http://localhost:5244
+
+GET {{NumbleBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
