@@ -128,7 +128,7 @@ const useFormHandler = (initialState) => {
       formState.email &&
       formState.street &&
       isHouseNumberValid &&
-      formState.city &&
+      isCityValid &&
       isPostcodeValid &&
       isPhoneValid;
 
@@ -139,7 +139,7 @@ const useFormHandler = (initialState) => {
     formState.numberPlate,
     formState.email,
     formState.street,
-    formState.city,
+    isCityValid,
     isHouseNumberValid,
     isPostcodeValid,
     isPhoneValid,
