@@ -96,6 +96,7 @@ const Form = () => {
         phone: false,
       });
 
+      setShowPopup(false);
       setFormState(initialFormState);
       setSubscribed(false);
       setGender("male");
@@ -272,8 +273,18 @@ const Form = () => {
 
         {showPopup && formValid && (
           <Popup
-            message="Thank you for submitting your details. We will get back to you soon!"
-            onClose={() => setShowPopup(false)} // Close popup handler
+            title={"Thank you!"}
+            message="Thank you for submitting the details of your car. Greetings Q Team"
+            onClose={() => setShowPopup(false)}
+          />
+        )}
+
+        {showPopup && !formValid && (
+          <Popup
+            title={"There was an error!"}
+            message="Please fill in the required fields!"
+            onClose={() => setShowPopup(false)}
+            showCloseButton={true}
           />
         )}
       </div>

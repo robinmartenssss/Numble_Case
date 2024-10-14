@@ -10,7 +10,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + .gender_title:before {
-  background-color: red;
+  background-color: #e31d3c;
 }
 
 .input-container label {
@@ -22,9 +22,9 @@ input[type="radio"]:checked + .gender_title:before {
   border-radius: 0.3rem;
   box-sizing: border-box;
   color: #000000;
-  font-size: 18px;
+  font-size: 1.2rem;
   height: 100%;
+  width: 100%;
   outline: 0;
   padding: 4px 20px 0;
-  width: 100%;
 }

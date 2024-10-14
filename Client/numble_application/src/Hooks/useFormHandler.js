@@ -35,7 +35,7 @@ const useFormHandler = (initialState) => {
   };
 
   const validateCity = (value) => {
-    const onlyLetters = /^[A-Za]*$/;
+    const onlyLetters = /^[A-Za-z]*$/;
     setFormState((prev) => ({ ...prev, city: value }));
     setCityValid(onlyLetters.test(value) && value.length > 0);
   };
@@ -81,7 +81,7 @@ const useFormHandler = (initialState) => {
         break;
 
       case "city":
-        const cityValue = value.replace(/[^A-Z]/g, "");
+        const cityValue = value.replace(/[^A-Za-z]/g, "");
         validateCity(cityValue);
         setError((prev) => ({ ...prev, city: !value }));
         break;
