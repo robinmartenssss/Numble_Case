@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Numble_Case/static/css/main.f2f4b01a.css",
+    "main.js": "/Numble_Case/static/js/main.900c9f9a.js",
+    "index.html": "/Numble_Case/index.html",
+    "main.f2f4b01a.css.map": "/Numble_Case/static/css/main.f2f4b01a.css.map",
+    "main.900c9f9a.js.map": "/Numble_Case/static/js/main.900c9f9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2f4b01a.css",
+    "static/js/main.900c9f9a.js"
+  ]
+}
